@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+  	background-color: rgb(238, 238, 250);
+	font-family: 'Nunito', sans-serif;
+}
+
+.title h1 {
+	margin-top: 2rem;
+	text-align: center;
+	font-size: 36px;
+	color: rgb(14, 49, 114);
+}
+
+.underline {
+	width: 7rem;
+	height: 0.25rem;
+	margin-left: auto;
+    margin-right: auto;
+	margin-top: 0;
+	margin-bottom: 2.5rem;
+	background-color: rgb(6, 97, 154);
+}
+
+.list {
+	margin-top: 4rem;
+	flex: 0;
+	display: flex;
+	align-items: flex-start;
+	justify-items: center;
+	margin-left: 8rem;
+	gap: 2.8rem;
+	flex-wrap: wrap;
+	align-content: center;
+}
+.item {
+	width: 24rem;
+	background-color: white;
+	box-sizing: content-box;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.item h3 {
+	padding-left: 2.5rem;
+}
+.item p {
+	padding-left: 2.5rem;
+	padding-bottom: 0;
+	width: 70%;
+	height: 30%;
+	font-size: 15px;
+	color: #617d98;
+}
+.item img {
+	width: 100%;
+	height: 20rem;
+}
+
+.btn {
+	cursor: pointer;
+	border: 1px solid;
+	border-radius: 0.25rem;
+	padding: 0.5em 3em;
+	font-size: 1em;
+	margin-left: 5.3em;
+	margin-bottom: 2rem;
+	margin-top: 1.5rem;
+	background-color: transparent;
+	color: rgb(163, 38, 38);
+}
+.btn:hover {
+	transition: 0.25s ease;
+	background-color: rgb(96, 1, 1);
+	color: white;
+}
+
+.rmbtn {
+	font-size: 15px;
+	cursor: pointer;
+	border: none;
+	background-color: white;
+	color: rgb(54, 54, 250);
+}
+
+.notours {
+	margin-top: 1.25em;
+	text-align: center;
+	font-size: 36px;
+	color: rgb(14, 49, 114);
+}
+
+.loading h1 {
+	text-align: center;
+	font-size: 36px;
+	color: rgb(14, 49, 114);
+}
+
+.refresh {
+	margin: 0;
+	position: absolute;
+	top: 20%;
+	left: 45%;
+	border-radius: 0.5em;
+	font-size: 24px;
+	padding: 0.5em 0.75em;
+	border-color: transparent;
+	cursor: pointer;
+	background-color: rgb(59, 89, 143);
+	color: white;
+}
+
+.clearall {
+	width: 8em;
+	margin-left: 28em;
+	margin-top: 2.5rem;
+	border-radius: 0.5em;
+	margin-bottom: 0.5em;
+	font-size: 24px;
+	padding: 0.5em 0.75em;
+	border-color: transparent;
+	cursor: pointer;
+	background-color: rgb(59, 89, 143);
+	color: white;
+}
