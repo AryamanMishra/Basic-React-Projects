@@ -3,16 +3,16 @@ import React from 'react'
 
 const Item = ({title,price,img,desc})=> {
 	return (
-		<div className='item'>
-			<div className='header'>
-				<img src={img} alt="img" />
-				<h3>{title}</h3>
-				<p>{price}</p>
-			</div>
-			<div className='desc'>
-				<p>{desc}</p>
-			</div>
-		</div>
+		<article className='item'>
+			<img src={img} alt="img" />
+			<div className='item-info'>
+				<header>
+					<h3>{title}</h3>
+					<p>${Math.floor(price)}</p>
+				</header>
+				<p id='desc'>{desc}</p>
+			</div> 
+		</article>
 	)
 }
 
