@@ -6,7 +6,7 @@ const App = () => {
 		'https://tours-info09.netlify.app/',
 		'https://reviews09.netlify.app/',
 		'https://accordion09.netlify.app/',
-
+		'https://menu-card09.netlify.app/'
 	]
 	return (
 		<div className='main-body'>
