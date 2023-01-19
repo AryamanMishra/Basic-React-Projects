@@ -6,7 +6,8 @@ const App = () => {
 		'https://tours-info09.netlify.app/',
 		'https://reviews09.netlify.app/',
 		'https://accordion09.netlify.app/',
-		'https://menu-card09.netlify.app/'
+		'https://menu-card09.netlify.app/',
+		'https://tabs09.netlify.app/'
 	]
 	return (
 		<div className='main-body'>
@@ -16,6 +17,7 @@ const App = () => {
 			<button><a href={links[2]}>Reviews</a></button>
 			<button><a href={links[3]}>Accordion</a></button>
 			<button><a href={links[4]}>Menu Card</a></button>
+			<button><a href={links[5]}>Tabs</a></button>
 		</div>
 	)
 }
