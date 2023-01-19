@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Koh+Santepheap&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+body {
+	margin: 0;
+	background-color: rgb(240, 240, 254);
+}
+
+
+#loading {
+	margin-top: 4.8rem;
+	text-align: center;
+	font-family: 'Inter', sans-serif;
+	letter-spacing: 1px;
+	color: rgb(3, 3, 79);
+	font-size: 3.9rem;
+}
+
+/* title css */
+.title {
+	text-align: center;
+	margin-top: 4.6rem;
+}
+
+.title h1 {
+	font-family: 'Inter', sans-serif;
+	letter-spacing: 1px;
+	color: rgb(3, 3, 79);
+	font-size: 2.5rem;
+}
+
+.underline {
+	height: 0.25rem;
+	width: 5rem;
+	margin-left :auto;
+	margin-right: auto;
+	margin-bottom: 2rem;
+	margin-top: -1.1rem;
+	background-color: rgb(84, 147, 209);
+}
+/* title css */
+
+
+
+/* button container */
+.btn-container {
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+	margin-top: 1rem;
+}
+
+.btn-container button {
+	text-align: center;
+	border: none;
+	background-color: transparent;
+	font-size: 1.25em;
+	letter-spacing: 1.5px;
+	cursor: pointer;
+	height: 2.5rem;
+	width: 200px;
+}
+
+.btn-container button:hover {
+	color:rgb(84, 147, 209);
+	box-shadow: -2px 0 0 rgb(84, 147, 209);
+	transition: 0.5s ease;
+}
+
+
+.active-btn {
+	color:rgb(84, 147, 209);
+	box-shadow: -2px 0 0 rgb(84, 147, 209);
+}
+/* button container */
+
+
+
+/* jobs center */
+.jobs-center {
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+	gap: 4rem;
+	margin-top: 2.8rem;
+	margin-left: 0.5rem;
+
+}
+/* jobs center */
+
+
+/* jobs info */
+.jobs-info {
+	width: 900px;
+}
+
+.jobs-info h2 {
+	letter-spacing: 1.5px;
+	font-weight: 200;
+	font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	font-size: 1.6em;
+}
+
+.jobs-info h4 {
+	display: inline-block;
+	padding: 0.375rem 0.75rem;
+	background-color: rgb(223, 219, 253);
+	margin-top: -1em;
+	letter-spacing: 1.5px;
+	font-size: 0.92em;
+	color: rgb(110, 111, 129);
+	font-weight: 900;
+	border-radius: 5px;
+}
+
+#dates {
+	color: rgb(110, 125, 139);
+	letter-spacing: 1.5px;
+	font-size: 1.05em;
+	margin-bottom: 0.8em;
+	margin-top: -0.3em;
+}
+/* jobs info */
+
+
+
+/*job desc*/
+.job-desc {
+	display: grid;
+	grid-template-columns: auto 1fr;
+	align-items: center;
+	column-gap: 2rem;
+}
+
+.job-desc p {
+	font-size: 1em;
+	color: rgb(57, 94, 112);
+	font-family: 'Work Sans', sans-serif;
+}
+
+.arrow {
+	color: rgb(0, 115, 255);
+}
+
+/*jobs desc*/
