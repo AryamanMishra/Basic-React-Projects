@@ -10,7 +10,7 @@ const App = ()=> {
 	const handleSubmit = (event)=> {
 		event.preventDefault()
 		let count = parseInt(paragraphs)
-		if (count <= 0)  {
+		if (count < 0)  {
 			count = 1
 			alert('So now you want negative number of paragraphs?? \nTake 1')
 		}
