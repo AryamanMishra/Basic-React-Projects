@@ -1,28 +1,20 @@
 import React from 'react'
+import Projects from './Projects'
+import data from './data'
 
 const App = () => {
-	const links = [
-		'https://birthday-reminder09.netlify.app/',
-		'https://tours-info09.netlify.app/',
-		'https://reviews09.netlify.app/',
-		'https://accordion09.netlify.app/',
-		'https://menu-card09.netlify.app/',
-		'https://tabs09.netlify.app/',
-		'https://slider09.netlify.app/',
-		'https://lorem-ipsum09.netlify.app/'
-	]
 	return (
-		<div className='main-body'>
-			<h1>Basic React Projects</h1>
-			<button><a href={links[0]}>Birthday Reminder</a></button>
-			<button><a href={links[1]}>Tours Info</a></button>
-			<button><a href={links[2]}>Reviews</a></button>
-			<button><a href={links[3]}>Accordion</a></button>
-			<button><a href={links[4]}>Menu Card</a></button>
-			<button><a href={links[5]}>Tabs</a></button>
-			<button><a href={links[6]}>Slider</a></button>
-			<button><a href={links[7]}>Lorem Ipsum Generator</a></button>
-		</div>
+		<main>
+			<div className='main-body'>
+				<div className='title'>
+					<h2>Basic React Projects</h2>
+					<div className='underline'></div>
+				</div>
+				<Projects data={data}/>
+			</div>
+		</main>
+		
+
 	)
 }
 export default App
