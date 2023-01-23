@@ -5,9 +5,7 @@ const Card = ({ img,title,link })=> {
 	return (
 		<div className='single-item'>
 			<a href={link} target='_blank' rel="noreferrer">
-				<div className='img-container'>
-					<img src={img} alt="hiii" />
-				</div>
+				<img src={img} alt="hiii" />
 				<div className='item-title'>
 					<h4>{title}</h4>
 				</div>

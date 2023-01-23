@@ -1,56 +1,65 @@
+import item1 from './images/item1.jpg'
+import item2 from './images/item2.jpg'
+import item3 from './images/item3.jpg'
+import item4 from './images/item4.jpg'
+import item5 from './images/item5.jpg'
+import item6 from './images/item6.jpg'
+import item7 from './images/item7.jpg'
+import item8 from './images/item8.jpg'
+
 const data = [
     {
         id:1,
-        img:'',
+        img:item1,
         title:'Birthday Reminder',
         link:'https://birthday-reminder09.netlify.app/'
     },
 
     {
         id:2,
-        img:'',
+        img:item2,
         title:'Tours Info',
         link:'https://tours-info09.netlify.app/'
     },
 
     {
         id:3,
-        img:'',
+        img:item3,
         title:'Reviews',
         link:'https://reviews09.netlify.app/'
     },
 
     {
         id:4,
-        img:'',
+        img:item4,
         title:'Accordion',
         link:'https://accordion09.netlify.app/'
     },
 
     {
         id:5,
-        img:'',
+        img:item5,
         title:'Menu Card',
         link:'https://menu-card09.netlify.app/'
     },
 
     {
         id:6,
-        img:'',
+        img:item6,
         title:'Tabs',
         link:'https://tabs09.netlify.app/'
     },
 
     {
         id:7,
-        img:'',
+        img:item7,
         title:'Slider',
         link:'https://slider09.netlify.app/'
     },
 
     {
         id:8,
-        img:'',
+        img:item8,
         title:'Lorem Ipsum Generator',
         link:'https://lorem-ipsum09.netlify.app/'
     },
