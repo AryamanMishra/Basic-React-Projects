@@ -6,8 +6,8 @@ const Projects = ({data})=> {
 	return (
 		<div className='projects-center'>
 			{
-				data.map((project,index)=> {
-					return <Card {...project} key={index}/>
+				data.map((project)=> {
+					return <Card {...project} key={project.id}/>
 				})
 			}
 		</div>

@@ -1,7 +1,7 @@
 import React from 'react'
 
 
-const Card = ({img,title,link})=> {
+const Card = ({ img,title,link })=> {
 	return (
 		<div className='single-item'>
 			<a href={link} target='_blank' rel="noreferrer">

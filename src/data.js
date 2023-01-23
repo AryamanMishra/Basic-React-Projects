@@ -1,48 +1,56 @@
 const data = [
     {
-        img:'./images/item1.png',
+        id:1,
+        img:'',
         title:'Birthday Reminder',
         link:'https://birthday-reminder09.netlify.app/'
     },
 
     {
-        img:'../public/images/item2.png',
+        id:2,
+        img:'',
         title:'Tours Info',
         link:'https://tours-info09.netlify.app/'
     },
 
     {
-        img:'../public/images/item3.png',
+        id:3,
+        img:'',
         title:'Reviews',
         link:'https://reviews09.netlify.app/'
     },
 
     {
-        img:'../public/images/item4.png',
+        id:4,
+        img:'',
         title:'Accordion',
         link:'https://accordion09.netlify.app/'
     },
 
     {
-        img:'../public/images/item5.png',
+        id:5,
+        img:'',
         title:'Menu Card',
         link:'https://menu-card09.netlify.app/'
     },
 
     {
-        img:'../public/images/item6.png',
+        id:6,
+        img:'',
         title:'Tabs',
         link:'https://tabs09.netlify.app/'
     },
 
     {
-        img:'../public/images/item7.png',
+        id:7,
+        img:'',
         title:'Slider',
         link:'https://slider09.netlify.app/'
     },
 
     {
-        img:'../public/images/item8.png',
+        id:8,
+        img:'',
         title:'Lorem Ipsum Generator',
         link:'https://lorem-ipsum09.netlify.app/'
     },
