@@ -83,7 +83,7 @@ body {
 
 
 
-@media only screen and (max-width:880px) {
+@media only screen and (max-width:920px) {
 	.title {
 		display: flex;
 		align-items: center;
@@ -103,6 +103,7 @@ body {
 	}
 	.single-item {
 		width: 420px;
+		height: 450px;
 	}
 }
 
@@ -118,7 +119,7 @@ body {
 	}
 
 	.title h2 {
-		font-size: 1em;
+		font-size: 0.9em;
 		text-align: center;
 	}
 	.projects-center {
@@ -128,8 +129,8 @@ body {
 		justify-content: center;
 	}
 	.single-item {
-		width: 280px;
-		height: 290px;
+		width: 240px;
+		height: 300px;
 	}
 
 }
