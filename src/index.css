@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
 
 body {
-  	background-color: rgb(9, 0, 42);
+  	background-color: rgb(7, 0, 32);
 	font-family: 'Nunito', sans-serif;
 }
 
@@ -13,7 +13,7 @@ body {
 .title h2 {
 	text-align: center;
 	font-size: 2em;
-	letter-spacing: 2.5px;
+	letter-spacing: 3px;
 	text-transform: uppercase;
 	color: white;
 }
@@ -28,7 +28,7 @@ body {
 .projects-center {
 	margin-top: 6em;
 	display: grid;
-	grid-template-columns: repeat(2,435px);
+	grid-template-columns: repeat(2,408px);
 	justify-content: center;
 	column-gap: 9.5em;
 	row-gap: 8em;
@@ -37,12 +37,12 @@ body {
 
 
 .single-item {
-	width: 430px;
-	height: 380px;
+	width: 400px;
+	height: 340px;
 	position: relative;
 	border: 2px solid transparent;
 	border-radius: 10px;
-	box-shadow: rgba(7, 184, 196, 0.404) 5px 5px 18px 0px;
+	box-shadow: rgba(0, 232, 249, 0.404) 5px 5px 18px 0px;
 }
 
 
@@ -76,4 +76,7 @@ body {
 	object-fit: cover;
 }
 
-
+.single-item:hover {
+	transform: scale(1.05);
+	transition: all 0.5 ease-in;
+}
