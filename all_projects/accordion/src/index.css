@@ -112,13 +112,13 @@ body {
         font-size: 0.8em;
     }
     #main-title {
-        font-size: 1.05em;
+        font-size: 1em;
         padding-top: 0.8em;
         padding-left: 1.7em;
     }
 }
 
-@media only screen and (max-height:755px) {
+@media only screen and (max-height:720px) {
     .container {
         transform: scale(0.7);
         margin: auto;
