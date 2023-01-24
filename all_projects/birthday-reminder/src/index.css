@@ -8,74 +8,107 @@ body {
 	background-color: rgb(231, 76, 128);
 }
 
-.main-body {
+
+.main-container {
+	box-shadow: 0 0 14px #3b3434;
 	display: flex;
 	flex-direction: column;
+	gap: 2em;
+	position: relative;
+	border: 1px solid white;
+	width: 570px;
+	height: 620px;
+	margin: auto;
+	margin-top: 5em;
 	background-color: white;
-	margin: auto;
-	margin-top: 80px;
-	padding-left: 20px;
-	border: 2px;
-	height: 630px;
-	width: 550px;
-	box-shadow: 0 0 14px rgb(59, 52, 52);
-	gap: 2px;
 }
 
-.allclear {
-	color: whitesmoke;
-	border: 1px solid;
-	background-color: rgb(231, 76, 128);
+.title {
+	margin-left: 1em;
+}
+
+.title h2 {
+	font-size: 1.8rem;
+}
+
+.main-container button {
+	align-self: center;
 	cursor: pointer;
-	width: 500px;
-	height: 50px;
-	margin: auto;
-	font-size: 20px;
-	margin-left: 14px;
-}
-
-h1 {	
-	font-size: 30px;
-	padding-bottom: 30px;
-}
-
-.person{
-	display: flex;
-	gap: 10px;
-}
-
-.person p {
-	align-self:flex-end
-}
-
-.person h4 {
-	margin-bottom: 0.35rem;
-}
-.person img {
-	width: 60px;
-	height: 60px;
-	object-fit: cover;
-	border-radius: 50%;
-	box-shadow: black;
+	width: 85%;
+	margin-top: 1.2em;
+	height: 2.4em;
+	font-size: 1.2em;
+	background-color: rgb(246, 56, 119);
+	color: white;
+	border: transparent;
 }
 
 .list {
 	display: flex;
 	flex-direction: column;
-	gap: 50px
+	gap: 2.5em;
+	margin-left: 1em;
+}
+.list p {
+	align-self: center;
 }
 
-img {
-	width: 50px;
-	height: 50px;
-	border-radius: 50%;
+.person {
+	display: flex;
+	gap: 0.8em;
+}
+.person h4 {
+	font-size: 1.02em;
+}
+.person img {
+	width: 60px;
+	height: 60px;
+	border-radius: 100%;
 }
 
-.itemclear {
-	height: 30px;
-	width: 150px;
-	position: absolute;
-	right: 35%;
-	justify-items: flex-end;
-	cursor: pointer;
+@media only screen and (max-width:550px){
+	.main-container {
+		width: 400px;
+	}
+}
+
+
+
+@media only screen and (max-width:420px) {
+	.main-container {
+		width: 300px;
+	}
+}
+
+@media only screen and (max-width:290px) {
+	.main-container {
+		width: 200px;
+		height: 610px;
+	}
+	.title h2 {
+		font-size: 1.2em;
+	}
+	.list {
+		width: 100px;
+	}
+	.person h4 {
+		font-size: 0.8em;
+	}
+}
+
+@media only screen and (min-height:1240px) {
+	.main-container {
+		width: 700px;
+		height: 800px;
+	}
+	.main-container button {
+		margin-top: 1.2em;
+		font-size: 1.5em;
+	}
+	.title h2 {
+		font-size: 2.5em;
+	}
+	.person h4 {
+		font-size: 1.5em;
+	}
 }
