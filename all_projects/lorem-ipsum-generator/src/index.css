@@ -20,7 +20,7 @@ body {
 	margin-top: 4.5rem;
 	letter-spacing: 2.5px;
 	font-family: 'Mukta', sans-serif;
-	font-size: 1.9rem;
+	font-size: 1.8rem;
 	color: rgb(0, 0, 71);
 }
 
@@ -78,9 +78,70 @@ body {
 }
 
 .content-section p {
-	font-family: Roboto;
 	text-align: center;
-	line-height: 24px;
+	line-height: 30px;
 	color: rgb(84, 132, 149);
 	margin-bottom: 1em;
+}
+
+@media only screen and (max-width:750px){
+	.content-section {
+		width: 29em;
+	}
+	.content-section p {
+		font-size: 0.9em;
+	}
+	.title h2 {
+		font-size: 1.35em;
+	}
+	.form button {
+		font-size: 0.7em;
+	}
+	.form label {
+		font-size: 1em;
+	}
+	.form input {
+		font-size: 1em;
+	}
+}
+
+@media only screen and (max-width:540px){
+	.content-section {
+		width: 23em;
+	}
+	.content-section p {
+		font-size: 0.81em;
+	}
+	.title h2 {
+		font-size: 1.1em;
+	}
+	.form button {
+		font-size: 0.5em;
+	}
+	.form label {
+		font-size: 0.9em;
+	}
+	.form input {
+		font-size: 0.9em;
+	}
+}
+@media only screen and (max-width:385px){
+	.content-section {
+		width: 16em;
+	}
+	.content-section p {
+		font-size: 0.7em;
+	}
+	.title h2 {
+		font-size: 0.74em;
+	}
+	.form button {
+		font-size: 0.5em;
+	}
+	.form label {
+		font-size: 0.65em;
+	}
+	.form input {
+		font-size: 0.65em;
+	}
 }
