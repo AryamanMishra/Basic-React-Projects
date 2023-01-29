@@ -80,15 +80,75 @@ p:nth-of-type(1) {
 	margin-top: 0.25rem;
 }
 
+.btn-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 1.5em;
+	margin-bottom: 1.5em;
+	gap: 0.8em;
+}
 .btn-container button {
 	cursor: pointer;
 	color: rgb(33, 169, 248);
 	border: none;
-	font-size: 1.4em;
+	font-size: 1.3em;
 	background-color: white;
+	padding: 0.4em 0.25em 0.2em
 }
 
-.btn-container button:nth-of-type(1) {
-	margin-left: 44%;
-	margin-bottom: 1.5em;
+.btn-container button:hover {
+	background-color: rgb(7, 3, 79);
+	transition: 0.7s ease;
+	color: white;
+}
+
+@media only screen and (max-width:420px){
+	.review {
+		width: 60%;
+	}
+	.title h2 {
+		font-size: 1.5em;
+	}
+	.underline {
+		width: 8em;
+	}
+	.img-container {
+		width: 100px;
+		height: 100px;
+	}
+	.review h3 {
+		font-size: 0.9em;
+	}
+	.review p {
+		font-size: 0.8em;
+	}
+	.btn-container button {
+		font-size: 1.1em;
+	}
+}
+
+@media only screen and (max-width:300px){
+	.title h2 {
+		font-size: 1.3em;
+	}
+	.underline {
+		width: 6em;
+	}
+	.img-container {
+		width: 70px;
+		height: 70px;
+	}
+	.review h3 {
+		font-size: 0.8em;
+	}
+	.review p {
+		font-size: 0.7em;
+	}
+}
+
+@media only screen and (min-width:1000px){
+	.review {
+		width: 43%;
+	}
 }
