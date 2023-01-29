@@ -6,7 +6,7 @@ const Item = ({title,price,img,desc})=> {
 		<article className='item'>
 			<img src={img} alt="img" />
 			<div className='item-info'>
-				<header>
+				<header className='header'>
 					<h3>{title}</h3>
 					<p>${Math.floor(price)}</p>
 				</header>
