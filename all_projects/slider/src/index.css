@@ -5,9 +5,14 @@ body {
 	background-color: rgb(238, 245, 249);
 }
 
+.title {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 4rem;
+}
 .title h2 {
 	text-align: center;
-	margin-top: 5rem;
 	letter-spacing: 1.7px;
 	font-size: 2.5rem;
 	color: rgb(18, 50, 105);
@@ -32,7 +37,7 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 	width: 52.5vw;
-	height: 450px;
+	height: 500px;
 	overflow: hidden;
 }
 
@@ -63,11 +68,12 @@ body {
 
 .quote {
 	position: relative;
-	left: 7%;
+	margin: auto;
 	color: rgba(2, 70, 88, 0.744);
 	line-height: 1.9em;
 	width: 700px;
-	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-size: 1.1em
 }
 
 article {
@@ -122,7 +128,7 @@ article {
 .quoteRight {
 	position: absolute;
 	font-size: 3em;
-	top: 79%;
+	top: 85%;
 	color: rgb(179, 120, 3);
 }
 
@@ -137,4 +143,98 @@ article {
 }
 .nextSlide {
 	transform: translateX(-100%);
+}
+
+@media only screen and (max-width:1420px){
+	.quote {
+		width: 500px;
+	}
+	.review-center {
+		width: 1000px;
+	}
+}
+
+@media only screen and (max-width:1100px){
+	.quote {
+		width: 500px;
+	}
+	.review-center {
+		width: 800px;
+		height: 550px;
+	}
+}
+
+@media only screen and (max-width:800px){
+	.quote {
+		width: 250px;
+	}
+	.review-center {
+		width: 500px;
+		height: 600px;
+	}
+}
+
+@media only screen and (max-width:580px){
+	.quote {
+		width: 230px;
+	}
+	.next {
+		transform: scale(0.75);
+	}
+	.prev {
+		transform: scale(0.75);
+	}
+	.review-center {
+		width: 420px;
+		height: 630px;
+	}
+}
+
+@media only screen and (max-width:480px){
+	.title h2 {
+		font-size: 2.2em;
+	}
+	.person-img {
+		width: 100px;
+		height: 100px;
+	}
+	.review-center {
+		width: 350px;
+		height: 580px;
+	}
+}
+
+@media only screen and (max-width:380px){
+	.title h2 {
+		font-size: 1.8em;
+	}
+	.person-img {
+		width: 80px;
+		height: 80px;
+	}
+	.review-center {
+		width: 330px;
+	}
+	.quote {
+		width: 200px;
+	}
+}
+
+@media only screen and (max-width:310px){
+	.title {
+		margin-left: 1em ;
+	}
+	.title h2 {
+		font-size: 1.5em;
+	}
+	.person-img {
+		width: 70px;
+		height: 70px;
+	}
+	.review-center {
+		width: 310px;
+	}
+	.quote {
+		width: 170px;
+	}
 }
