@@ -18,11 +18,12 @@ body {
 
 /* title css */
 .title {
-	text-align: center;
+	margin: auto;
 	margin-top: 4.6rem;
 }
 
 .title h1 {
+	text-align: center;
 	font-family: 'Inter', sans-serif;
 	letter-spacing: 1px;
 	color: rgb(3, 3, 79);
@@ -133,7 +134,9 @@ body {
 }
 
 .job-desc p {
-	font-size: 1em;
+	font-size: 1.3em;
+	letter-spacing: 1.2px;
+	line-height: 1.4em;
 	color: rgb(57, 94, 112);
 	font-family: 'Work Sans', sans-serif;
 }
@@ -143,3 +146,88 @@ body {
 }
 
 /*jobs desc*/
+
+
+@media only screen and (max-width:1180px){
+	.jobs-info {
+		width: 600px;
+	}
+}
+
+@media only screen and (max-width:850px){
+	.jobs-info {
+		width: 400px;
+	}
+}
+
+@media only screen and (max-width:680px){
+	.title h1 {
+		font-size: 2.2rem;
+	}
+	.btn-container {
+		flex-direction: row;
+		align-items: center;
+		justify-content: center;
+		gap: 3em;
+		width: 450px;
+	}
+	.btn-container button {
+		font-size: 1.2em;
+	}
+	.jobs-center {
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+}
+
+@media only screen and (max-width:480px){ 
+	.title {
+		margin-left: 15%
+	}
+	.title h1 {
+		font-size: 2rem;
+	}
+	.btn-container {
+		flex-direction: column;
+		align-items: flex-start;
+		margin-left: 5em;
+	}
+	.btn-container button {
+		padding-left: 2em;
+	}
+	.jobs-info {
+		width: 360px;
+	}
+	.jobs-info h2 {
+		font-size: 1.4em;
+	}
+}
+
+@media only screen and (max-width:395px){ 
+	.title h1 {
+		font-size: 2rem;
+	}
+	.title {
+		margin-left: 15%
+	}
+	.btn-container {
+		margin-top: 2.5em;
+		flex-direction: column;
+		align-items: flex-start;
+		margin-left: 12em;
+	}
+	.jobs-info {
+		width: 310px;
+		margin-left: 1em;
+	}
+	.jobs-info h2 {
+		font-size: 1.35em;
+	}
+}
+@media only screen and (max-width:290px){ 
+	.jobs-info {
+		width: 250px;
+		margin-left: 1em;
+	}
+}
