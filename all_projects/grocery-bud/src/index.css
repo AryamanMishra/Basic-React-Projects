@@ -147,3 +147,187 @@ body {
 	text-align: center;
 	color: black;
 }
+
+@media only screen and (min-width:1680px) {
+	.list-center {
+		width: 710px;
+	}
+	.form-control input {
+		width: 25vw;
+	}
+	.item {
+		width: 28vw;
+	}
+}
+
+@media only screen and (min-width:1270px) and (max-width:1680px){
+	.list-center {
+		width: 590px;
+	}
+}
+
+@media only screen and (min-width:1000px)  and (max-width:1270px){
+	.list-center {
+		width: 480px;
+	}
+	.item {
+		width: 32vw;
+	}
+}
+
+@media only screen and (min-width:800px)  and (max-width:1000px){
+	.list-center {
+		width: 400px;
+	}
+	.item {
+		width: 33vw
+	}
+}
+
+
+@media only screen and (min-width:580px)  and (max-width:800px){
+	.form h2 {
+		font-size: 1.65em;
+	}
+	.list-center {
+		width: 350px;
+	}
+	.item {
+		width: 36vw
+	}
+}
+
+
+@media only screen and (min-width:480px)  and (max-width:580px){
+	.form h2 {
+		font-size: 1.5em;
+	}
+	.list-center {
+		width: 300px;
+	}
+	.item {
+		width: 40vw
+	}
+}
+
+@media only screen and (min-width:380px)  and (max-width:480px){
+	.form h2 {
+		font-size: 1.35em;
+	}
+	.form-control input {
+		width: 22vw;
+		font-size: 0.9em
+	}
+	.form-control button {
+		font-size: 0.8em
+	}
+	.list-center {
+		width: 250px;
+	}
+	.item {
+		width: 45vw
+	}
+	.item p {
+		font-size: 0.82em;
+	}
+	.clearall-btn {
+		font-size: 0.75em;
+	}
+}
+
+@media only screen and (min-width:320px)  and (max-width:380px){
+	.form h2 {
+		font-size: 1.1em;
+	}
+	.list-center {
+		width: 200px;
+	}
+	.form-control input {
+		width: 18vw;
+		font-size: 0.8em;
+	}
+	.form-control button {
+		font-size: 0.7em;
+		height: 2em;
+	}
+
+	.item {
+		width: 42vw
+	}
+	.item p {
+		font-size: 0.75em;
+	}
+	.clearall-btn {
+		font-size: 0.7em;
+	}
+}
+
+
+@media only screen and (max-width:320px) {
+	.form h2 {
+		font-size: 1em;
+	}
+	.form-control input {
+		width: 18vw;
+		font-size: 0.7em;
+		height: 0.9em;
+	}
+	.form-control button {
+		font-size: 0.6em;
+		height: 1.9em;
+	}
+	.list-center {
+		width: 180px;
+	}
+	.item {
+		width: 46vw
+	}
+	.item p {
+		font-size: 0.6em;
+	}
+	.clearall-btn {
+		font-size: 0.6em;
+	}
+	.item-btn-container button{ 
+		font-size: 0.7em;
+	}
+}
+
+@media only screen and (max-width:250px) {
+	.item-btn-container button{ 
+		font-size: 0.5em;
+	}
+	.form h2 {
+		font-size: 0.8em;
+	}
+	.form-control input {
+		width: 18vw;
+		font-size: 0.6em;
+		height: 0.9em;
+	}
+	.form-control button {
+		font-size: 0.5em;
+		height: 1.9em;
+	}
+	.list-center {
+		width: 150px;
+	}
+	.item {
+		width: 50vw
+	}
+	.item p {
+		font-size: 0.55em;
+	}
+	.clearall-btn {
+		font-size: 0.5em;
+	}
+}
+
+@media only screen and (max-width:200px) {
+	.item p {
+		font-size: 0.45em;
+	}
+	.item-btn-container button{ 
+		font-size: 0.4em;
+	}
+}

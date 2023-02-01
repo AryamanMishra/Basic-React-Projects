@@ -90,7 +90,7 @@ const App = ()=> {
 							type="text" 
 							name="item" 
 							id="item"
-							placeholder='e.g. aaloo, pyaaz'
+							placeholder='e.g. pyaaz'
 							value={name}
 							onChange={(event) => setName(event.target.value)}
 						/>
