@@ -1,0 +1,139 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+		'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+		sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	background-color: rgb(238, 241, 249);
+}
+
+
+nav {
+	background-color: white;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 2px 8px;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:800px){
+	.nav-center {
+		padding: 1rem;
+	}
+
+	.nav-header {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.nav-header img {
+		height: 42px;
+	}
+
+	.social-icons {
+		display: none;
+	}
+
+	.nav-toggle {
+		cursor: pointer;
+		border: none;
+		background-color: transparent;
+		margin-right: 0.4em;
+		font-size: 1.5em;
+		color: rgb(53, 110, 255);
+	}
+
+	.nav-toggle:hover {
+		transform: rotate(90deg);
+		transition: 0.5s ease;
+		color: black;
+	}
+
+	.links li {
+		letter-spacing: 1.5px;
+		list-style: none;	
+		font-size: 1em;
+		margin:1.4em 0.3em
+	}
+
+	.links li a {
+		text-decoration: none;
+		text-transform: capitalize;
+		color: black;
+	} 
+
+	.links-container {
+		height: 0;
+	}
+	.show-container {
+		height: 15rem;
+		overflow: hidden;
+		transition: all 0.1s linear;
+	}
+}
+
+@media only screen and (min-width:800px){
+	.nav-center {
+		display: flex;
+		margin: 0 auto;
+		align-items: center;
+		justify-content: space-between;
+		padding: 0.8rem;
+		max-width: 1170px;
+	}
+
+	.nav-header img {
+		height: 42px;
+	}
+	
+	.nav-toggle {
+		display: none;
+	}
+
+	.links {
+		display: flex;
+	}
+
+	.links li {
+		letter-spacing: 1.5px;
+		list-style: none;	
+		font-size: 1em;
+	}
+
+	.links li a {
+		margin: 0 0.6em; 
+		text-decoration: none;
+		text-transform: capitalize;
+		color: black;
+	} 
+
+	.social-icons {
+		display: flex;
+		align-items: center;
+		gap: 1.3em;
+	}
+
+	.social-icons li {
+		list-style: none;
+		font-size: 1em;
+	}
+	
+	.social-icons li a {
+		text-decoration: none;
+	}
+	
+}
