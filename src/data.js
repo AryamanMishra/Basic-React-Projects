@@ -6,6 +6,7 @@ import item5 from './images/item5.jpg'
 import item6 from './images/item6.jpg'
 import item7 from './images/item7.jpg'
 import item8 from './images/item8.jpg'
+import item9 from './images/item9.jpg'
 
 const data = [
     {
@@ -63,6 +64,12 @@ const data = [
         title:'Lorem Ipsum Generator',
         link:'https://lorem-ipsum09.netlify.app/'
     },
+    {
+        id:9,
+        img:item9,
+        title:'Grocery Bud',
+        link:'https://grocery-bud99.netlify.app/'
+    }
 ]
 
 
