@@ -64,25 +64,31 @@ nav {
 	}
 
 	.links li {
-		letter-spacing: 1.5px;
 		list-style: none;	
-		font-size: 1em;
-		margin:1.4em 0.3em
 	}
 
 	.links li a {
+		display: block;
+		font-size: 1rem;
+		letter-spacing: 1.5px;
 		text-decoration: none;
 		text-transform: capitalize;
 		color: black;
+		padding: 0.61rem 0.3rem;
 	} 
+
+	.links li a:hover {
+		padding: 0.61rem 0.88rem;
+		transition: all 0.35s linear;
+		background-color: rgb(172, 195, 253);
+		color: rgb(61, 115, 250);
+	}
 
 	.links-container {
 		height: 0;
-	}
-	.show-container {
-		height: 15rem;
 		overflow: hidden;
-		transition: all 0.1s linear;
+		transition: all 0.3s linear;
+		margin: 0.82em 0em;
 	}
 }
 
@@ -104,6 +110,9 @@ nav {
 		display: none;
 	}
 
+	.links-container {
+		height: auto !important
+	}
 	.links {
 		display: flex;
 	}
