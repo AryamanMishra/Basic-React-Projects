@@ -7,6 +7,7 @@ import item6 from './images/item6.jpg'
 import item7 from './images/item7.jpg'
 import item8 from './images/item8.jpg'
 import item9 from './images/item9.jpg'
+import item10 from './images/item10.jpg'
 
 const data = [
     {
@@ -69,6 +70,12 @@ const data = [
         img:item9,
         title:'Grocery Bud',
         link:'https://grocery-bud99.netlify.app/'
+    },
+    {
+        id:10,
+        img:item10,
+        title:'Navbar',
+        link:'https://navbar-09.netlify.app/'
     }
 ]
 
