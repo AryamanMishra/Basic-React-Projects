@@ -8,6 +8,7 @@ import item7 from './images/item7.jpg'
 import item8 from './images/item8.jpg'
 import item9 from './images/item9.jpg'
 import item10 from './images/item10.jpg'
+import item11 from './images/item11.jpg'
 
 const data = [
     {
@@ -76,7 +77,14 @@ const data = [
         img:item10,
         title:'Navbar',
         link:'https://navbar-09.netlify.app/'
+    },
+    {
+        id:11,
+        img:item11,
+        title:'Sidebar',
+        link:'https://sidebar-modal-09.netlify.app/'
     }
+    
 ]
 
 
