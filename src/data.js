@@ -9,6 +9,7 @@ import item8 from './images/item8.jpg'
 import item9 from './images/item9.jpg'
 import item10 from './images/item10.jpg'
 import item11 from './images/item11.jpg'
+import item12 from './images/item12.jpg'
 
 const data = [
     {
@@ -83,6 +84,12 @@ const data = [
         img:item11,
         title:'Sidebar',
         link:'https://sidebar-modal-09.netlify.app/'
+    },
+    {
+        id:12,
+        img:item12,
+        title:'Stripe-submenus',
+        link:'https://stripe-submenus09.netlify.app/'
     }
     
 ]
